@@ -2,14 +2,18 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8",
+        "naykel/gotime": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -61,6 +65,43 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": {
+        "naykel/authit": {
+            "type": "path",
+            "url": "C:\\Users\\nayke\\sites\\nk_packages\\authit",
+            "options": {
+                "symlink": true
+            }
+        },
+        "naykel/contactit": {
+            "type": "path",
+            "url": "C:\\Users\\nayke\\sites\\nk_packages\\contactit",
+            "options": {
+                "symlink": true
+            }
+        },
+        "naykel/gotime": {
+            "type": "path",
+            "url": "C:\\Users\\nayke\\sites\\nk_packages\\gotime",
+            "options": {
+                "symlink": true
+            }
+        },
+        "naykel/pageit": {
+            "type": "path",
+            "url": "C:\\Users\\nayke\\sites\\nk_packages\\pageit",
+            "options": {
+                "symlink": true
+            }
+        },
+        "naykel/payit": {
+            "type": "path",
+            "url": "C:\\Users\\nayke\\sites\\nk_packages\\payit",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
 }
